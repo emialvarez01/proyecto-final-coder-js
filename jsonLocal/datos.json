@@ -1,0 +1,20 @@
+[
+    {
+      "nombre": "Hyperion",
+      "precio": 1500,
+      "id": 2,
+      "imagen": "./portadasLibros/hyperion.jpg"
+    },
+    {
+      "nombre": "Inferno",
+      "precio": 2000,
+      "id": 2,
+      "imagen": "./portadasLibros/inferno.jpg"
+    },
+    {
+      "nombre": "Neuromante",
+      "precio": 3400,
+      "id": 2,
+      "imagen": "./portadasLibros/neuromante.webp"
+    }
+  ]

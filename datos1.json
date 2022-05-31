@@ -1,0 +1,109 @@
+[{
+        "id": 1,
+        "club": "ANGELES LAKERS",
+        "nombre": "Los Angeles Lakers local 2021/2022",
+        "precio": "120 USD",
+        "stock": 18,
+        "imagen": "imagenes/lakers1.png"
+
+    },
+    {
+        "id": 2,
+        "club": "ANGELES LAKERS",
+        "nombre": "Los Angeles Lakers visitante 2021/2022",
+        "precio": "100 USD",
+        "stock": 15,
+        "imagen": "imagenes/lakers2.png"
+
+    },
+    {
+        "id": 3,
+        "club": "ANGELES LAKERS",
+        "nombre": "Los Angeles Lakers alternativa 2021/2022",
+        "precio": "80 USD",
+        "stock": 5,
+        "imagen": "imagenes/lakers3.png"
+
+    },
+    {
+        "id": 4,
+        "club": "CLEVELAND CAVALIERS",
+        "nombre": "Cleveland Cavaliers local 2021/2022",
+        "precio": "120 USD",
+        "stock": 25,
+        "imagen": "imagenes/cavs1.png"
+
+    },
+    {
+        "id": 5,
+        "club": "CLEVELAND CAVALIERS",
+        "nombre": "Cleveland Cavaliers visitante 2021/2022",
+        "precio": "100 USD",
+        "stock": 8,
+        "imagen": "imagenes/cavs2.png"
+
+    },
+    {
+        "id": 6,
+        "club": "CLEVELAND CAVALIERS",
+        "nombre": "Cleveland Cavaliers alternativa 2021/2022",
+        "precio": "80 USD",
+        "stock": 21,
+        "imagen": "imagenes/cavs3.png"
+
+    },
+    {
+        "id": 7,
+        "club": "PHILADELPHIA 76ERS",
+        "nombre": "Philadephia 76ers local 2021/2022",
+        "precio": "120 USD",
+        "stock": 14,
+        "imagen": "imagenes/sixers1.png"
+
+    },
+    {
+        "id": 8,
+        "club": "PHILADELPHIA 76ERS",
+        "nombre": "Philadephia 76ers visitante 2021/2022",
+        "precio": "100 USD",
+        "stock": 23,
+        "imagen": "imagenes/sixers2.png"
+
+    },
+    {
+        "id": 9,
+        "club": "PHILADELPHIA 76ERS",
+        "nombre": "Philadephia 76ers alternativa 2021/2022",
+        "precio": "80 USD",
+        "stock": 19,
+        "imagen": "imagenes/sixers3.png"
+
+    },
+    {
+        "id": 10,
+        "club": "CHICAGO BULLS",
+        "nombre": "Chicago Bulls local 2021/2022",
+        "precio": "120 USD",
+        "stock": 13,
+        "imagen": "imagenes/bulls1.png"
+
+    },
+    {
+        "id": 11,
+        "club": "CHICAGO BULLS",
+        "nombre": "Chicago Bulls visitante 2021/2022",
+        "precio": "100 USD",
+        "stock": 17,
+        "imagen": "imagenes/bulls2.png"
+
+    },
+    {
+        "id": 12,
+        "club": "CHICAGO BULLS",
+        "nombre": "Chicago Bulls alternativa 2021/2022",
+        "precio": "80 USD",
+        "stock": 9,
+        "imagen": "imagenes/bulls3.png"
+
+    }
+]

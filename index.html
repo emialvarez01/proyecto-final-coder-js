@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto js</title>
+    <link href="https://bootswatch.com/5/lux/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+</head>
+
+<body style="background-color: #222121;">
+    <header>
+        <nav class="navbar navbar-dark bg-primary">
+            <div class="container-fluid">
+
+                <a class="navbar-brand">
+                    <img src="imagenes/logoPelota.png" alt="" width="45" height="45">
+                    NBARG
+                </a>
+
+
+                <input class="form-control me-2" type="text" placeholder="Buscar" aria-label="Search" id="input"
+                    style="align-items: center; width: 300px;">
+                <button class="btn btn-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                    aria-controls="offcanvasRight" id="tucarrito" style="margin-left: 10px;">Carrito</button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                    aria-labelledby="offcanvasRightLabel" style="background-color: rgb(85, 85, 85);">
+                    <div class="offcanvas-header">
+                        <h5 id="offcanvasRightLabel" style="color: white;">Tu Carrito</h5>
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body" style="color: white;" id="carrito">
+
+
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                    aria-label="Slide 5"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="imagenes/fotoPrincipal.png" class="img-fluid" alt="fotoPrincipal" style="max-height: 39rem; width: 100%;">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 style="color:white; background-color:black ;">Bienvenido a NBARG!</h5>
+                        <p style="color:white; background-color:black ;">Tu tienda favorita de basquet!</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="imagenes/magic.png" class="img-fluid" alt="lakers" style="max-height: 39rem; width: 100%;">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 style="color:white; background-color:black ;">Angeles Lakers</h5>
+                        <p style="color:white; background-color:black ;">Indumentaria oficial de los Angeles Lakers</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="imagenes/Lebron.png" class="img-fluid" alt="cavs" style="max-height: 39rem; width: 100%;">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 style="color:white; background-color:black ;">Cleveland Cavaliers</h5>
+                        <p style="color:white; background-color:black ;">Indumentaria oficial de los Cleveland Cavaliers</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="imagenes/jordan.png" class="img-fluid" alt="bulls" style="max-height: 39rem; width: 100%;">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 style="color:white; background-color:black ;">Chicago bulls</h5>
+                        <p style="color:white; background-color:black ;">Indumentaria oficial de los Chicago Bulls</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="imagenes/iverson.png" class="img-fluid" alt="sixers" style="max-height: 39rem; width: 100%;">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 style="color:white; background-color:black ;">philadelphia 76ers</h5>
+                        <p style="color:white; background-color:black ;">Indumentaria oficial de los Philadelphia 76ers
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <br>
+        <div id="divProductos" class="row"></div>
+
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+    <script src="final.js"></script>
+</body>
+
+</html>
